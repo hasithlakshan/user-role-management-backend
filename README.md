@@ -10,7 +10,7 @@
 	
 #	Project set up
     • redirect to user-role-management-backend
-    • check the mongodb is ready to connect or not(mongodb://127.0.0.1:27017/rest-api)
+    • check whether the mongodb database is ready to connect(mongodb://127.0.0.1:27017/rest-api)
     • configure the .env file
     • npm install
     • npm start
