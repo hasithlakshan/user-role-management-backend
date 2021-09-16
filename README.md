@@ -10,7 +10,7 @@
 	
 #	Project set up
     • redirect to user-role-management-backend
-    • run the Mysql database
-    • import the attached file to config the database
+    • check the mongo database is ready to connect or not(mongodb://127.0.0.1:27017/rest-api)
+    • configure the .env file
     • npm install
     • npm start
