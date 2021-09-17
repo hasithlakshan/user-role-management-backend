@@ -16,12 +16,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: 'Role can\'t be empty'
     },
-    // phoneNo: {
-    //     type: String,
-    //     required: 'Phone number can\'t be empty',
-    //     minlength : [10,'Phone number must be atleast 10 character long'],
-    //     maxlength : [10,'Phone number must be 10 character long']
-    // },
     email: {
         type: String,
         required: 'Email can\'t be empty',
@@ -32,14 +26,6 @@ const userSchema = new mongoose.Schema({
         required: 'Password can\'t be empty',
         minlength : [8,'Password must be atleast 8 character long']
     },
-    // regDate: {
-    //     type: Date,
-    //     default: Date.now
-    // },
-    // imagePath: {
-    //     type: String,
-    //     default: null
-    // },
     saltSecret: String
 });
 
